@@ -70,7 +70,7 @@ public class Game {
             rounds++;
             int number = generateRandomNumber(starting, ending);
             System.out.println("\n==== Round " + rounds + " ====");
-            System.out.println(number);
+            
             int totalAttempts = playGame(number, maxChance, scanner);
             numChances += totalAttempts;
 
